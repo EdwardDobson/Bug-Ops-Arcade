@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ee9f1a24443b154589b254a794f5b87, type: 3}
+  m_Name: Shotgun
+  m_EditorClassIdentifier: 
+  WeaponName: Shotgun
+  WeaponIcon: {fileID: 21300000, guid: 11531d9e5963d884d92a87dad568cbb3, type: 3}
+  BulletSprite: {fileID: 21300000, guid: 8748401234c06f242b6c78c32bba7510, type: 3}
+  Mag: {fileID: 21300000, guid: d1e8b98ff9406f24cbe5099826357b9b, type: 3}
+  GunType: 4
+  BulletMoveSpeed: 10
+  GunFireRate: 2
+  AmmoCapMax: 2
+  AmmoCapCurrent: 2
+  ReloadTime: 2
+  Damage: 5
+  AOE: 0
+  BulletAliveTime: 2
+  LaserRange: 0
+  BulletAmount: 5
